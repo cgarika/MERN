@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="topMenuBar">
+        <div class="menuLeft">
+          <h2>Profile</h2>
+          <div class="menuLeftLinks">
+            <a href="#">Home</a>
+            <a href="#">My Profile</a>
+            <a href="#">Find Connections</a>
+          </div>
+        </div>
+        <div class="menuRight">
+          <button>Sign Out</button>
+        </div>
+      </div>
+    </div>
+    <div class="bodyContainer">
+      <div class="containerLeft">
+        <div class="profileContainer">
+          <div class="profile">
+            <div class="profile-header"></div>
+            <div class="profile-card">
+              <img
+                class="profile-image"
+                src="images/alayne-s.jpg"
+                alt="Profile image of Jane Doe"
+              />
+              <h3 class="profile-name">Jane Doe</h3>
+              <p class="profile-location">
+                <img
+                  class="location-icon"
+                  src="images/map-marker.png"
+                  alt="Location marker"
+                />
+                Seattle
+              </p>
+              <p class="profile-description">
+                Developer | Engineer | Problem Solver |<br />
+                Master of shadows and the Internet!
+              </p>
+              <p class="profile-edit">
+                <img
+                  class="gear-icon"
+                  src="images/gear.png"
+                  alt="Settings icon"
+                />
+                <a href="#" class="edit-link" onclick="changeName()">edit profile</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="qualification-container">
+          <div class="qualification-header">
+            <p class="title">Education</p>
+          </div>
+          <div class="qualification-card">
+            <p class="qualification-title">Coding Dojo - Full Stack Bootcamp</p>
+            <p class="qualification-date">Dec 2019 - Mar 2020</p>
+            <p class="qualification-description">
+              Triple black belt in Python, MERN, and C#...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="containerRight">
+        <div class="connections-Container">
+        <div class="connections-header">
+          <p class="number1">2</p>
+          <p class="title">Connection Requests</p>
+        </div>
+        <div class="connectionsPending">
+          <ol class="listing">
+            <li class = "request-pending-1">
+              <img
+                class="user-images"
+                src="images/adrien-s.jpg"
+                alt="adrien-image"
+              />
+              <span>Adrien S</span>
+              <img
+                class="accept-circle"
+                src="images/accept-circle.png"
+                alt="accept-circle"
+                onclick="removeRequest('.request-pending-1')"
+              />
+              <img
+                class="close-circle"
+                src="images/close-circle.png"
+                alt="close-circle"
+                onclick="removeRequest('.request-pending-1')"
+              />
+            </li>
+            <li class = "request-pending-2">
+              <img
+                class="user-images"
+                src="images/anne-s.jpg"
+                alt="anne-image"
+              />
+              <span>Anne S</span>
+              <img
+                class="accept-circle"
+                src="images/accept-circle.png"
+                alt="accept-circle"
+                onclick="removeRequest('.request-pending-2')"
+              />
+              <img
+                class="close-circle"
+                src="images/close-circle.png"
+                alt="close-circle"
+                onclick="removeRequest('.request-pending-2')"
+              />
+            </li>
+          </ol>
+        </div>
+        <div class="connections-Container2">
+          <div class="connections-header">
+            <p class="number2">500+</p>
+            <p class="title">Your Connections</p>
+          </div>
+          <div class="your-connections">
+            <ol class="active-listing">
+              <li>
+                <img
+                  class="user-images"
+                  src="images/arry-s.jpg"
+                  alt="arry-image"
+                />
+                <span>Arry S</span>
+              </li>
+              <li>
+                <img
+                  class="user-images"
+                  src="images/jane-m.jpg"
+                  alt="jane-image"
+                />
+                <span>Jane M</span>
+              </li>
+              <li>
+                <img
+                  class="user-images"
+                  src="images/phil-s.jpg"
+                  alt="phil-image"
+                />
+                <span>Phil S</span>
+              </li>
+              <li>
+                <img
+                  class="user-images"
+                  src="images/todd-s.jpg"
+                  alt="todd-image"
+                />
+                <span>Todd S</span>
+              </li>
+            </ol>
+            <a class="more-link" href="#">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

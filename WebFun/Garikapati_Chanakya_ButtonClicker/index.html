@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>Button Clicker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="topMenuBar">
+        <p class="pageName">Dojonary</p>
+        <div class="searchBox">
+          <textarea
+            name="searchBar"
+            id="sb-area"
+            rows="1"
+            cols="40"
+            placeholder="Search"
+          ></textarea>
+        </div>
+        <button class="login" onclick="clickLoginButton(this)">Login</button>
+      </div>
+      <div class="bodyContainer">
+        <div class="leftContainer">
+          <div class="lefttop">
+            <div class="lefttopleft">
+              <p class="text1">ninja</p>
+              <p class="text2">noun</p>
+              <p class="text3">plural: <em>ninjas</em></p>
+              <button class="likes-button" onclick="alert('Ninja was liked')">
+                13 likes
+              </button>
+            </div>
+            <div class="lefttopright">
+              <p class="definition-1">
+                A practitioner skilled in the <br /><a href="#">Japanese</a> art
+                of
+                <a href="#">ninjutsu</a>
+              </p>
+            </div>
+          </div>
+          <div class="leftbottom">
+            <div class="leftbottomleft">
+              <p class="text1">ninja</p>
+              <p class="text2">noun</p>
+              <p class="text3">plural: <em>ninjas</em></p>
+              <button class="likes-button" onclick="alert('Ninja was liked')">
+                37 likes
+              </button>
+            </div>
+            <div class="leftbottomright">
+              <p class="definition-1">
+                A <a href="#">programmer</a> who breaks <br />
+                down problems with <a href="#">Zen</a>-like <br />focus
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rightContainer">
+          <div class="righttop">
+            <p class="rightText">
+              Dojonary is <br />defined by <strong>You</strong>
+            </p>
+          </div>
+          <div class="rightBottom">
+            <button class="Button" onclick="addDefinitionButton(this)">
+              Add Definition
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
