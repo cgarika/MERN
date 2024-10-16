@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav-bar">
+          <div class="logo">
+            <h1>Dojo Weather</h1>
+          </div>
+          <div class="cities">
+            <ul>
+              <li><a href="#" onclick="alert('Burbank')">Burbank</a></li>
+              <li><a href="#" onclick="alert('Chicago')">Chicago</a></li>
+              <li><a href="#" onclick="alert('Dallas')">Dallas</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main-content">
+          <div class="top-main">
+            <h2>San Jose</h2>
+            <div class="row">
+              <label for="temperature">Show temperature:</label>
+              <select
+                name="temperature"
+                id="temperature"
+                onchange="optionValue(this.value)"
+              >
+                <option value="fahrenheit">F°</option>
+                <option value="celsius">C°</option>
+              </select>
+            </div>
+          </div>
+          <hr />
+          <div class="cards">
+            <div class="weather-card">
+              <h3>Today</h3>
+              <img src="images/some_rain.png" alt="rainy weather" />
+              <p>some rain</p>
+              <div class="temp-row">
+                <p>High: <span class="tempHigh"> 75°</span></p>
+                <p>Low: <span class="tempLow"> 65°</span></p>
+              </div>
+            </div>
+            <div class="weather-card">
+              <h3>Tomorrow</h3>
+              <img src="images/some_sun.png" alt="sunny weather" />
+              <p>sunny</p>
+              <div class="temp-row">
+                <p>High: <span class="tempHigh">80°</span></p>
+                <p>Low: <span class="tempLow">66°</span></p>
+              </div>
+            </div>
+            <div class="weather-card">
+              <h3>Friday</h3>
+              <img src="images/some_clouds.png" alt="cloudy weather" />
+              <p>cloudy</p>
+              <div class="temp-row">
+                <p>High: <span class="tempHigh">69°</span></p>
+                <p>Low: <span class="tempLow">61°</span></p>
+              </div>
+            </div>
+            <div class="weather-card">
+              <h3>Saturday</h3>
+              <img src="images/some_sun.png" alt="sunny weather" />
+              <p>sunny</p>
+              <div class="temp-row">
+                <p>High: <span class="tempHigh">78°</span></p>
+                <p>Low: <span class="tempLow">70°</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <img src="images/cookie.png" alt="cookie icon" />
+          <div class="footer-text">
+            <h3>Stop! Cookie time</h3>
+            <p>
+              We use cookies (sadly not the edible ones) to personalize content
+              and ads, to provide social media features and to analyse our
+              traffic. <a href="#">Read more...</a>
+            </p>
+          </div>
+          <button onclick="dismiss('.footer-container')">I accept</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

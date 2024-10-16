@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styling */
+#container {
+  gap: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Button styles */
+#button1 button {
+  font-size: 15px;
+  padding: 5px 50px;
+  border: 2px solid #68babb;
+  color: #68babb;
+  background-color: #fff;
+  margin: 10px 20px;
+  border-radius: 100px;
+}
+
+#button2 button {
+  font-size: 30px;
+  padding: 1px 10px;
+  border: 2px solid #68babb;
+  color: white;
+  background-color: #68babb;
+  margin: 10px 20px;
+  border-radius: 100px;
+}
+
+#button3 button {
+  font-size: 16px;
+  padding: 10px 40px;
+  border: 2px solid #2b77e4;
+  color: white;
+  background-color: #2b77e4;
+  cursor: pointer;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px black;
+}

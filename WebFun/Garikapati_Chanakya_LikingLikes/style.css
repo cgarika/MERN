@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  background-color: white;
+  margin: 50px;
+  border: 2px solid black;
+}
+
+.toppart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.rightContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightContent p,
+.rightContent button {
+  margin-left: 15px;
+}
+
+.bottom {
+  padding: 10px;
+}
+
+.toppart p {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.rightContent p {
+  font-size: 20px;
+}
+
+button {
+  width: 50px;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+  background-color: #f2ca4e;
+  box-shadow: 4px 4px black;
+}

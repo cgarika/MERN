@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+    <title>LikingLikes-Part2</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="top-navbar">
+        <p>Network</p>
+      </nav>
+      <div class="feed-header">
+        <p>Your Feed</p>
+      </div>
+      <div class="body-container">
+        <div class="body-left-container">
+          <img src="images/profileImage.jpeg" alt="Profile Image" />
+          <a href="#">Add an avatar</a>
+          <p>James Doe</p>
+        </div>
+        <div class="body-right-container">
+          <ul>
+            <li>
+              <div class="cards">
+                <div class="card-header">
+                  <div class="name"><p>Neil M</p></div>
+                  <div class="header-right-content">
+                    <p><span class="likes-card1">9</span> like(s)</p>
+                    <button class="like" onclick="increaseLike('.likes-card1')">
+                      Like
+                    </button>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <p>
+                    I just set up this new discord bot, let me know what you all
+                    think.
+                    <a href="#">link</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="cards">
+                <div class="card-header">
+                  <div class="name"><p>Nichole K</p></div>
+                  <div class="header-right-content">
+                    <p><span class="likes-card2">12</span> like(s)</p>
+                    <button class="like" onclick="increaseLike('.likes-card2')">
+                      Like
+                    </button>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <p>
+                    Just finished my
+                    <a href="#">next comic</a>
+                    check it out.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="cards">
+                <div class="card-header">
+                  <div class="name"><p>Jim R</p></div>
+                  <div class="header-right-content">
+                    <p><span class="likes-card3">9</span> like(s)</p>
+                    <button class="like" onclick="increaseLike('.likes-card3')">
+                      Like
+                    </button>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <p>
+                    I can't stop listening to the
+                    <a href="#">new album</a>
+                    .Who else is liking it?
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
