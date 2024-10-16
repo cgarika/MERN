@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  flex-direction: column;
+  border: 2px solid black;
+  align-items: center;
+  background-color: silver;
+  border-radius: 10px;
+}
+.Labels {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+}
+
+.inputboxes {
+  margin-left: 10px;
+  flex: 1;
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  color: black;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+h2 {
+  margin: 0 auto;
+}

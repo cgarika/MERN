@@ -1,0 +1,26 @@
+.container {
+  background-color: #f8f9fa; /* Light background for the card */
+  border: 1px solid #dee2e6; /* Light grey border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Space inside the card */
+  margin: 0px auto; /* Space around the card */
+  width: 1200px; /* Fixed width for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: Arial, sans-serif; /* Clean, simple font */
+}
+
+.container label {
+  font-weight: bold; /* Make labels bold */
+  display: inline-block; /* Labels and text stay in line */
+  width: 80px; /* Fixed width for label alignment */
+  margin-right: -25px; /* Space between label and text */
+  margin-left: 15px;
+}
+
+.container label + span {
+  color: #495057; /* Slightly darker text for the content */
+}
+
+.container div {
+  margin-bottom: 8px; /* Space between each label-text pair */
+}

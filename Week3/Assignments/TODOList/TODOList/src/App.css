@@ -1,0 +1,113 @@
+.headerText {
+  text-align: center;
+  padding: 20px;
+  background-color: brown;
+  border: 2px solid black;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  color: white;
+}
+
+.container {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labels {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: black;
+}
+
+.textboxes {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit,
+.reset {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit {
+  background-color: green;
+  color: white;
+}
+
+.submit:hover {
+  background-color: darkgreen;
+}
+
+.reset {
+  background-color: red;
+  color: white;
+}
+
+.reset:hover {
+  background-color: darkred;
+}
+h2 {
+  text-align: center;
+}
+
+/* Style for the task item container */
+.task-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Style for the task item text */
+.task-item span {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style for the complete/undo button */
+.task-item button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  margin-left: 50px;
+}
+
+/* Hover effect for the complete/undo button */
+.task-item button:hover {
+  background-color: darkblue;
+}
+
+/* Line-through style for completed tasks */
+.task-item span.completed {
+  text-decoration: line-through;
+  color: grey;
+}

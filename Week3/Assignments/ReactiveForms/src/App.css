@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.fname,
+.lname,
+.Email,
+.password,
+.confirmPassword {
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  background-color: silver;
+}
+
+.labels {
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+button {
+  margin: 10px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.textboxes {
+  margin-left: 20px;
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+ul {
+  text-align: center;
+}

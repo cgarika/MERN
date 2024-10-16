@@ -1,0 +1,55 @@
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d3d3d3;
+  padding: 10px 20px;
+}
+
+.home-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+.home-button:hover {
+  background-color: #f0f0f0;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.admit-button,
+.details-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+  box-shadow: 5px 5px;
+}
+
+.admit-button:hover,
+.details-button:hover {
+  background-color: #f0f0f0;
+}
